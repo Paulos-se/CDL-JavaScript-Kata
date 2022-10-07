@@ -1,20 +1,10 @@
-CDL JavaScript Kata
+## CDL JavaScript Kata
 
 Answer to the questions - Because the pricing changes frequently, we need to be able to pass in a set of pricing rules each time we start handling a checkout transaction. Therefore I used a the "prompt-sync" library to retrieve users input in the priceSetup function. Enabling me to input as many fruits as I want and set the unit price and the special offer quantity and special offer price for each fruit.
 
 I seperated the main function into two functions which would make it easier to debug. And given more time I would write tests for each function.
 
-1. We expect you to spend around 1.5 hours on this challenge - use your time wisely, we know it's valuable!
-
-2. Ideally use JavaScript as we can run that kind of code fairly easily.
-
-3. Tell us about key decisions you made and what you'd do if you had more time.
-
-4. Keep your solution simple, making effective use of your chosen language.
-
-5. (Intermediate /Senior role only) Do provide some tests, especially around the most important logic.
-
-6. We're not looking for production-ready enterprise-scale code (no databases or servers please, and keep boilerplate to a minimum).
+### Usage
 
 Implement the code for a checkout system that handles pricing schemes such as “apples cost 50 pence, three apples cost £1.30.”
 
@@ -36,6 +26,5 @@ Our checkout accepts items in any order, so that if we scan a B, an A, and anoth
 
 The solution should allow for items to input within a simple user interface, and allow for a final total to be calculated and for a running total after each item is added to the basket
 
-Please use JavaScript for the solution and place this onto a publicly accessible Github repository and let us know where it is.
-
-Finally, please commit changes frequently. It is more important to see the progress than the finished product.
+Please call the checkout function and then input the name of the fruit, unit price, special offer quantity and special offer price if there's consecutively after each prompt. Then answer "y" or "n" to the following prompt asking whether you want to "add more fruits?".
+choose y if you want to add more fruits and set the prices. If not proceed to writing the name of the fruit you want to scan at the next prompt. Answer whether you want to scan more fruits. Then running total will be calculated everytime you scan a fruit. And after you finished scanning your last item the final total will be displayed.
