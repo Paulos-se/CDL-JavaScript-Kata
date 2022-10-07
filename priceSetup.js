@@ -4,6 +4,7 @@ const prompt = ps();
 function priceSetup() {
   let fruit;
   let fruitPrice;
+  let specialOfferQuantity;
   let specialOfferPrice;
   let question;
   let fruitsArray = [];
