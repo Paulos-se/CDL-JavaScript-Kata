@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "kata",
+  "main": "checkout.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paulos-se/CDL-JavaScript-Kata.git"
+  },
+  "author": "Paulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paulos-se/CDL-JavaScript-Kata/issues"
+  },
+  "homepage": "https://github.com/Paulos-se/CDL-JavaScript-Kata#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
