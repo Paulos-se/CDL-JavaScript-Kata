@@ -26,5 +26,5 @@ Our checkout accepts items in any order, so that if we scan a B, an A, and anoth
 
 The solution should allow for items to input within a simple user interface, and allow for a final total to be calculated and for a running total after each item is added to the basket
 
-Please call the checkout function and then input the name of the fruit, unit price, special offer quantity and special offer price if there's consecutively after each prompt. Then answer "y" or "n" to the following prompt asking whether you want to "add more fruits?".
-choose y if you want to add more fruits and set the prices. If not proceed to writing the name of the fruit you want to scan at the next prompt. Answer whether you want to scan more fruits. Then running total will be calculated everytime you scan a fruit. And after you finished scanning your last item the final total will be displayed.
+Please call the checkout function and then input the name of the fruit, unit price, special offer quantity and special offer price if there's any, consecutively after each prompt. Then answer "y" or "n" to the following prompt asking whether you want to "add more fruits?".
+Write "y" if you want to add more fruits and set the prices. If not proceed to writing the name of the fruit you want to scan at the next prompt. Answer whether you want to scan more fruits. Then running total will be calculated everytime you scan a fruit. And after you finished scanning your last item the final total will be displayed.

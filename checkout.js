@@ -26,7 +26,7 @@ function checkout() {
     });
     console.log(`Running total £${till.toFixed(2)}`);
     question = prompt("scan more fruits? (y/n) ");
-    if (question.toLowerCase() == "n") {
+    if (question.toLowerCase() === "n") {
       scan = false;
       total = till;
       console.log(`Final total £${total.toFixed(2)}`);

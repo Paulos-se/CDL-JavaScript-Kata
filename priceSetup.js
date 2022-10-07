@@ -15,7 +15,7 @@ function priceSetup() {
     specialOfferQuantity = prompt(`${fruit} special offer quantity `);
     specialOfferPrice = prompt(`${fruit} special offer price `);
     question = prompt("add more fruits? (y/n) ");
-    if (question.toLowerCase() == "n") {
+    if (question.toLowerCase() === "n") {
       ask = false;
     }
     fruitsObject["fruit"] = fruit;
