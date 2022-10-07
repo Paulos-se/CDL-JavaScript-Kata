@@ -6,6 +6,10 @@ CDL JavaScript Kata
 
 3. Tell us about key decisions you made and what you'd do if you had more time.
 
+Answer - Because the pricing changes frequently, we need to be able to pass in a set of pricing rules each time we start handling a checkout transaction. Therefore I used a the "prompt-sync" library to retrieve users input in the priceSetup function. Enabling me to input as many fruits as I want and set the unit price and the special offer quantity and special offer price for each fruit.
+
+I seperated the main function into two functions which would make it easier to debug. And given more time I would write tests for each function.
+
 4. Keep your solution simple, making effective use of your chosen language.
 
 5. (Intermediate /Senior role only) Do provide some tests, especially around the most important logic.

@@ -1,7 +1,7 @@
 const ps = require("prompt-sync");
 const prompt = ps();
 
-function setPrice() {
+function priceSetup() {
   let fruit;
   let fruitPrice;
   let specialOfferPrice;
@@ -19,9 +19,9 @@ function setPrice() {
       ask = false;
     }
     fruitsObject["fruit"] = fruit;
-    fruitsObject["fruitPrice"] = parseFloat(fruitPrice);
+    fruitsObject["fruitPrice"] = parseFloat(fruitPrice) || 0;
     fruitsObject["specialOfferPrice"] = parseFloat(specialOfferPrice) || 0;
-    fruitsObject["specialOfferQuantity"] = Number(specialOfferQuantity);
+    fruitsObject["specialOfferQuantity"] = Number(specialOfferQuantity) || 0;
     fruitsObject["count"] = 0;
     fruitsArray.push(fruitsObject);
     fruitsObject = {};
@@ -29,4 +29,4 @@ function setPrice() {
   return fruitsArray;
 }
 
-module.exports = setPrice;
+module.exports = priceSetup;
